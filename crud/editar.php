@@ -14,18 +14,15 @@
             exit;
         }
 
-        // Prevenir SQL Injection usando prepared statement
         $stmt = $conn->prepare("UPDATE pratos SET nome=?, descricao=?, preco=?, categoria=? WHERE id=?");
 
         if ($stmt) {
             $stmt->bind_param("ssdsi", $nome, $descricao, $preco, $categoria, $id);
             $stmt->execute();
 
-            // Verificar se a atualização foi realizada
             if ($stmt->affected_rows > 0) {
-                // Redireciona para a página de administração
                 header('Location: ../administrar-pratos.php');
-                exit; // Garantir que o código não continue executando após o redirecionamento
+                exit; 
             } else {
                 echo "Erro na atualização ou nenhum dado foi alterado." . "<br>";
                 echo "<a href='../index.php'>Início</a>";

@@ -7,7 +7,8 @@
 }
 
 .fundo {
-    background-color: #f6f6f6;
+    background-image: url(../images/background-sistema-cardapio.jpg);
+    background: center cover;
     height: 100vh;
 }
 

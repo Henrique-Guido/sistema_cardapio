@@ -3,24 +3,34 @@
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
-    font-family: Arial, Helvetica, sans-serif;
 }
 
-.fundo {
-    background-color: #f6f6f6;
+@font-face {
+    font-family: 'Playfair Display';
+    src: url(../fonts/PlayfairDisplay-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: 'Lora';
+    src: url(../fonts/Lora-VariableFont_wght.ttf);
+}
+
+.wrapper {
+    background-image: url(../images/background-sistema-cardapio.jpg);
+    background: center cover;
     height: 100vh;
 }
 
 header {
-    background-color: #111;
-    padding: 20px 70px;
+    background-color: #000000bb;
+    padding: 30px 70px;
     text-align: center;
+    font-family: 'Lora';
 }
 
 header nav a {
     margin-left: 35px;
     color: #fff;
-    font-weight: bold;
     text-transform: uppercase;
     transition: .5s;
 }
@@ -33,12 +43,14 @@ h2 {
     font-size: 40px;
     text-align: center;
     margin: 50px 0;
+    font-family: 'Playfair Display';
+    color: #fff;
 }
 
 form {
-    background-color: #ccc;
+    background-color: #000000bb;
     display: flex;
-    padding: 20px 70px;
+    padding: 20px 40px;
     width: fit-content;
     margin: 70px auto;
     border-radius: 20px;
@@ -46,6 +58,8 @@ form {
 
 .campo {
     margin-right: 30px;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 label {

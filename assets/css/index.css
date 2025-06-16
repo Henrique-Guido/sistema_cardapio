@@ -2,29 +2,42 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    color: #333;
     text-decoration: none;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Lora';
 }
 
-.fundo {
-    background-color: #f6f6f6;
+/* modificado*/
+@font-face {
+    font-family: 'Playfair Display';
+    src: url(../fonts/PlayfairDisplay-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: 'Lora';
+    src: url(../fonts/Lora-VariableFont_wght.ttf);
+}
+/* modificado*/
+
+.wrapper {
+    background-image: url(../images/background-sistema-cardapio.jpg);
+    background: center cover;
     height: 100vh;
 }
 
+/* modificado*/
 header {
-    background-color: #111;
-    padding: 20px 70px;
+    background-color: #000000bb;
+    padding: 30px 70px;
     text-align: center;
 }
 
 header nav a {
     margin-left: 35px;
     color: #fff;
-    font-weight: bold;
     text-transform: uppercase;
     transition: .5s;
 }
+/* modificado*/
 
 header nav a:hover {
     color: #ccc;
@@ -40,17 +53,21 @@ main {
 
 h1 {
     font-size: 80px;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: 'Playfair Display';
 }
 
 main p {
+    font-family: '';
     font-size: 20px;
     font-style: italic;
     margin-bottom: 20px;
+    color: #fff;
 }
 
 main a {
-    background: #643c23;
-    color: linear-gradient(135deg, #341100, #643c23);
+    background: #2E1E17;
     color: #fff;
     padding: 10px 20px;
     border-radius: 15px;
@@ -58,5 +75,5 @@ main a {
 }
 
 main a:hover {
-    background-color: #4b2c1a;
+    background-color: #201510;
 }

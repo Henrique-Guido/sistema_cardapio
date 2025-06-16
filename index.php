@@ -11,7 +11,7 @@
 </head>
 <body>
 
-    <div class="fundo">
+    <div class="wrapper">
         <header>
             <nav>
                 <a href="index.php">Home</a>
