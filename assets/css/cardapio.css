@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.fundo {
+    background-color: #f6f6f6;
+    height: 100vh;
+}
+
+header {
+    background-color: #111;
+    padding: 20px 70px;
+    text-align: center;
+}
+
+header nav a {
+    margin-left: 35px;
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: .5s;
+}
+
+header nav a:hover {
+    color: #ccc;
+}
+
+h2 {
+    font-size: 40px;
+    text-align: center;
+    margin: 50px 0;
+}
+
+.cardapio {
+
+    padding: 20px 70px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.prato {
+    min-width: 30%;
+    background: #421d09;
+    background: linear-gradient(90deg, rgba(66, 29, 9, 1) 0%, rgba(112, 57, 25, 1) 50%, rgba(105, 64, 18, 1) 100%);
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: #999999 3px 3px 3px;
+    color: #fff;
+}
+
+h4 {
+    font-size: 35px;
+    margin-bottom: 15px;
+}
+
+.prato p {
+    text-decoration: underline;
+    margin-bottom: 10px;
+    font-style: italic;
+    font-size: 20px;
+}
