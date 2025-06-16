@@ -26,7 +26,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Forrmulário de Edição</title>
+    <title>Formulário de Edição</title>
     <link rel="stylesheet" href="assets/css/form.css">
 </head>
 <body>
@@ -37,6 +37,7 @@
             <a href="administrar-pratos.php">Administrar Pratos</a>
         </nav>
     </header>
+    <h2>Atualize o prato</h2>
     <form action="crud/editar.php?id=<?= $prato['id'] ?>" method="post">
         <div class="campo">
             <label for="nome">Nome do Prato: </label>
@@ -53,10 +54,12 @@
         <div class="campo">
             <label for="categoria">Categoria: </label>
             <input type="text" name="categoria" id="categoria" value="<?= $prato['categoria'] ?>">
+            <input type="hidden" name="id" value="<?= $prato['id'] ?>">
         </div>
-        <!-- Campo oculto para o id -->
-        <input type="hidden" name="id" value="<?= $prato['id'] ?>">
-        <input type="submit" value="Atualizar Prato">
+        <div class="campo">
+            <input type="submit" value="Atualizar">
+            <a href="administrar-pratos.php" id="cancelar-btn">Cancelar</a>
+        </div>
     </form>
     
 </body>

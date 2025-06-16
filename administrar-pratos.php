@@ -19,7 +19,7 @@
         </nav>
     </header>
 
-    <h2>Cadastre, edite ou remova um prato</h2>
+    <h2>Adicione um novo prato ao cardápio</h2>
 
     <form action="crud/inserir.php" method="post">
         <div class="campo">
@@ -39,7 +39,7 @@
             <input type="text" name="categoria" id="categoria">
             <input type="hidden" name="id">
         </div>
-        <input type="submit" value="Cadastrar">
+        <input type="submit" id="cadastrar-btn" value="Cadastrar">
     </form>
     
     <div class="cardapio">

@@ -4,7 +4,7 @@
 
 ## ✨ Funcionalidades
 
-- Cadastro de novos pratos com nome, descrição e preço
+- Cadastro de novos pratos com nome, descrição, preço e categoria
 - Listagem completa dos pratos disponíveis
 - Edição e remoção de pratos
 - Interface simples e funcional
@@ -33,3 +33,5 @@
 │   ├── editar.php
 │   ├── inserir.php
 │   └── leitura.php
+
+Desenvolvido por [**Henrique Guido**](https://www.linkedin.com/in/henrique-guido/)
