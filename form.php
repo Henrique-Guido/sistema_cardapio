@@ -60,8 +60,8 @@
             </div>
             <div class="campo">
                 <input type="submit" value="Atualizar">
+                <a href="administrar-pratos.php" id="cancelar-btn">Cancelar</a>
             </div>
-            <a href="administrar-pratos.php" id="cancelar-btn">Cancelar</a>
         </form>
     </div>
 </body>

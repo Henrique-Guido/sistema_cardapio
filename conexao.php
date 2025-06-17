@@ -3,7 +3,7 @@
 $host="localhost";
 $user="root"; 
 $password="root";     
-$dbname="cardapio";
+$dbname="sistema_cardapio";
 
 $conn= new mysqli($host, $user, $password, $dbname);
 
