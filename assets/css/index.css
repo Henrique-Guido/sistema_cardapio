@@ -6,7 +6,6 @@
     font-family: 'Lora';
 }
 
-/* modificado*/
 @font-face {
     font-family: 'Playfair Display';
     src: url(../fonts/PlayfairDisplay-VariableFont_wght.ttf);
@@ -16,7 +15,6 @@
     font-family: 'Lora';
     src: url(../fonts/Lora-VariableFont_wght.ttf);
 }
-/* modificado*/
 
 .wrapper {
     background-image: url(../images/background-sistema-cardapio.jpg);
@@ -24,7 +22,6 @@
     height: 100vh;
 }
 
-/* modificado*/
 header {
     background-color: #000000bb;
     padding: 30px 70px;
@@ -37,7 +34,6 @@ header nav a {
     text-transform: uppercase;
     transition: .5s;
 }
-/* modificado*/
 
 header nav a:hover {
     color: #ccc;
