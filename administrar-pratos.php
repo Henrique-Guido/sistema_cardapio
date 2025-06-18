@@ -33,7 +33,7 @@
             </div>
             <div class="campo">
                 <label for="preco">Preço: </label>
-                <input type="number" name="preco" id="preco">
+                <input type="number" name="preco" step="0.01" min="0" id="preco">
             </div>
             <div class="campo">
                 <label for="categoria">Categoria: </label>
