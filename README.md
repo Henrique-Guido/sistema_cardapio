@@ -14,7 +14,6 @@
 - **HTML5** e **CSS3** – Estrutura e estilo da interface
 - **PHP** – Lógica de servidor e integração com o banco de dados
 - **MySQL** – Armazenamento das informações dos pratos
-- **JavaScript** – Para interações dinâmicas no frontend
 
 ## 📦 Estrutura do Projeto
 
