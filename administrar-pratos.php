@@ -25,19 +25,19 @@
         <form action="crud/inserir.php" method="post">
             <div class="campo">
                 <label for="nome">Nome do Prato: </label>
-                <input type="text" name="nome" id="nome">
+                <input type="text" name="nome" id="nome" required>
             </div>
             <div class="campo">
                 <label for="descricao">Descrição: </label>
-                <input type="text" name="descricao" id="descricao">
+                <input type="text" name="descricao" id="descricao" required>
             </div>
             <div class="campo">
                 <label for="preco">Preço: </label>
-                <input type="number" name="preco" step="0.01" min="0" id="preco">
+                <input type="number" name="preco" step="0.01" min="0" id="preco" required>
             </div>
             <div class="campo">
                 <label for="categoria">Categoria: </label>
-                <input type="text" name="categoria" id="categoria">
+                <input type="text" name="categoria" id="categoria" required>
                 <input type="hidden" name="id">
             </div>
             <input type="submit" id="cadastrar-btn" value="Cadastrar">

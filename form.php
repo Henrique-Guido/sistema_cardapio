@@ -43,19 +43,19 @@
         <form action="crud/editar.php?id=<?= $prato['id'] ?>" method="post">
             <div class="campo">
                 <label for="nome">Nome do Prato: </label>
-                <input type="text" name="nome" id="nome" value="<?= $prato['nome'] ?>">
+                <input type="text" name="nome" id="nome" value="<?= $prato['nome'] ?>" required>
             </div>
             <div class="campo">
                 <label for="descricao">Descrição: </label>
-                <input type="text" name="descricao" id="descricao" value="<?= $prato['descricao'] ?>">
+                <input type="text" name="descricao" id="descricao" value="<?= $prato['descricao'] ?>" required>
             </div>
             <div class="campo">
                 <label for="preco">Preço: </label>
-                <input type="number" name="preco" step="0.01" min="0" id="preco" value="<?= $prato['preco'] ?>">
+                <input type="number" name="preco" step="0.01" min="0" id="preco" value="<?= $prato['preco'] ?>" required>
             </div>
             <div class="campo">
                 <label for="categoria">Categoria: </label>
-                <input type="text" name="categoria" id="categoria" value="<?= $prato['categoria'] ?>">
+                <input type="text" name="categoria" id="categoria" value="<?= $prato['categoria'] ?>" required>
                 <input type="hidden" name="id" value="<?= $prato['id'] ?>">
             </div>
             <div class="campo">
